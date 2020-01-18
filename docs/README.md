@@ -11,6 +11,21 @@
 <br>
 <br>
 
+## Database
+
+- [MySQL](https://database.shoppre.com/mysql/)
+- MongoDB
+- PostgreSQL
+- SQLite
+- WebSQL
+- MS SQL
+
+
+## Articles
+
+- [Replication is not Backup](https://database.shoppre.com/basics/replication-is-not-read-only-archive-or-backup.html)
+- [Replication may not increase complete performance, Rows Archival & Indexing fields really improves performance](https://database.shoppre.com/basics/replication-may-not-increase-performance-indexing-and-archival-do-it.html)
+
 
 <a href="https://login.shoppre.com/signin?client_id=database" class="nav-link action-button">
   Get Started →
