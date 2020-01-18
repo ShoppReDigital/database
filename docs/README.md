@@ -1,6 +1,6 @@
-# Your NodeJS, AngularJS Artchitect, Now Online
+# Your Database Artchitect, Now Online
 
-[Improve this page](https://github.com/shoppre/identity/edit/master/docs/README.md)
+[Improve this page](https://github.com/shoppre/database/edit/master/docs/README.md)
 
 <br>
 <br>
@@ -12,6 +12,6 @@
 <br>
 
 
-<a href="https://login.shoppre.com/signin?client_id=identity" class="nav-link action-button">
+<a href="https://login.shoppre.com/signin?client_id=database" class="nav-link action-button">
   Get Started →
 </a>

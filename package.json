@@ -1,12 +1,12 @@
 {
-  "name": "identity",
+  "name": "database",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs --port $PORT -d public",
     "build": "vuepress build docs -d public",
-    "postbuild": "vuepress-sitemap -H https://identity.shoppre.com -d public"
+    "postbuild": "vuepress-sitemap -H https://database.shoppre.com -d public"
   },
   "devDependencies": {
     "vuepress": "^1.2.0",

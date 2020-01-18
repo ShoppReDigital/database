@@ -1,10 +1,9 @@
 module.exports = {
-  title: "Identity - Shoppre Consulting, India",
-  description: "OAuth, SAML, Open ID Connect, Single Singon Consulting from India",
+  title: "Database - Shoppre Consulting, India",
+  description: "MySQL, MongoDB, SQLite, WebSQL, PostgreSQL, DataGrip, MS SQL, PHPMyAdmin, Database Backups, Archival, Replication, Indexing Consulting from India",
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "OAuth in NodeJS", link: "/guide/nodejs-oauth-implementation.html" },
     ]
   },
   dest: "public",
@@ -12,7 +11,7 @@ module.exports = {
       'social-share',
     {
       'sitemap': {
-        hostname: 'https://identity.shoppre.com/'
+        hostname: 'https://database.shoppre.com/'
       },
     }
   ],
