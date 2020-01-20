@@ -85,10 +85,11 @@ Good for:
 - Effort: One time setup, Daily work Automated
 - Security: Secured - Backup is in Object Storage - Amazon s3 has proved Security
 - Storage Guarantee: Double Guranteed - Enable Redundency if required
-- Restoration: Manual
+- Restoration: Manual & Command line via SSH
 - Cost: Network Cost, Object Storage normally cheaper
 - Network Usage: Used for Every Backup
 - Alerting: Not Available 
+- Logging: Not Available
 
 Intervals: Hourly, Weekly and Monthly
 
@@ -106,5 +107,8 @@ Intervals: Hourly, Weekly and Monthly
  - Set Alerts for failures, threshoulds cross
  - Restoration is command line based - Manual
  
+ #### B4. B3 + AutoBackup Server & AutoBackup Command line utility & client
 
-
+- Restoration: Manual but UI Based
+- Logging: Client/Developer can see how many backups happening, etc
+- Alerting: on failure etc
