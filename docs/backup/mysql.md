@@ -1,5 +1,7 @@
 # Business MySQL Backup Strategies
 
+
+
 - Easiest Solution - Generalized - https://ottomatik.io/
 
 ### Challenges
@@ -73,6 +75,8 @@ Note: with this(**B2**), use **A1**(Entire server daily backup) to easily keep b
 To solve challenges of B2, We planned for B3
 
 #### B3. B2 with Amazon S3 or Minio(Open Source, Self Hosted) using s3cmd
+
+**Depending on**: Object Storage, S3CMD, mysqldump 
 
 - `mysqldump ... | s3cmd put - s3://bucket/file-name.sql`
 
