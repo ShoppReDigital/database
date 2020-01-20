@@ -80,6 +80,8 @@ Good for:
 - Technically: Greater than 100 active hourly users
 - Business wise: Hourly $100+ revenue 
 
+Points:
+
 - Risk Level: Less Risk or No Risk
 - Difficulty Level: Average
 - Effort: One time setup, Daily work Automated
@@ -90,6 +92,8 @@ Good for:
 - Network Usage: Used for Every Backup
 - Alerting: Not Available 
 - Logging: Not Available
+
+
 
 Intervals: Hourly, Weekly and Monthly
 
