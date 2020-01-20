@@ -76,7 +76,7 @@ To solve challenges of B2, We planned for B3
 
 #### B3. B2 with Amazon S3 or Minio(Open Source, Self Hosted) using s3cmd
 
-**Depending on**: Object Storage, S3CMD, mysqldump 
+**Depending on**: Object Storage(credentials), S3CMD, crontab, mysqldump(db server cpu & ram)
 
 - `mysqldump ... | s3cmd put - s3://bucket/file-name.sql`
 
