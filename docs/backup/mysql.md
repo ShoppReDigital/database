@@ -1,4 +1,4 @@
-# Business MySQL Backup Strategies
+# [Business MySQL Backup Strategies](https://database.shoppre.com/backup/mysql.html)
 
 
 
@@ -14,9 +14,6 @@
 - When client buy a software, Backup service should be integrated with it automatically(Integration1)
 - before Client buy a software, client should buy MySQL server, and with MySQL server our db backup tool having integration
 - using `db-backup-client` and connected to AWS S3/MINIO and `db-backup-server`(stores metadata of backups)
-
-
-
 
 # Technical MySQL Backup Strategies
 
@@ -122,3 +119,13 @@ Intervals: Hourly, Weekly and Monthly
 - Restoration: Manual but UI Based
 - Logging: Client/Developer can see how many backups happening, etc
 - Alerting: on failure etc
+
+
+## Bad Practices
+
+##### 1. Taking backup of all the databases or all the tables without knowing the importance, 
+ 
+- Restoration becomes difficult
+- only relying on daily entire server backup
+- taking backup and not check restoration options
+- Keeping backups for more than neccessary time - Better to delete hourly backups after a week, weekly backups after a month, monthly backups after quarter, quarterly backups after a year
