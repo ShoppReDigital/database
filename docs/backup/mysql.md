@@ -1,4 +1,22 @@
-# MySQL Backup Strategies
+# Business MySQL Backup Strategies
+
+- Easiest Solution - Generalized - https://ottomatik.io/
+
+### Challenges
+- Cost may be high
+- Integration
+
+
+## For Clients who use ShoppRe Cloud
+
+- When client buy a software, Backup service should be integrated with it automatically(Integration1)
+- before Client buy a software, client should buy MySQL server, and with MySQL server our db backup tool having integration
+- using `db-backup-client` and connected to AWS S3/MINIO and `db-backup-server`(stores metadata of backups)
+
+
+
+
+# Technical MySQL Backup Strategies
 
 ### A. Server Level Strategies: **Easiest**
 
@@ -67,8 +85,10 @@ Good for:
 - Effort: One time setup, Daily work Automated
 - Security: Secured - Backup is in Object Storage - Amazon s3 has proved Security
 - Storage Guarantee: Double Guranteed - Enable Redundency if required
+- Restoration: Manual
 - Cost: Network Cost, Object Storage normally cheaper
 - Network Usage: Used for Every Backup
+- Alerting: Not Available 
 
 Intervals: Hourly, Weekly and Monthly
 
@@ -82,6 +102,9 @@ Intervals: Hourly, Weekly and Monthly
 ##### Challenges
 
  - Network costs increase based on how you use
+ - No Track of how much time a backup consuming with nice dashboard 
+ - Set Alerts for failures, threshoulds cross
+ - Restoration is command line based - Manual
  
 
 
