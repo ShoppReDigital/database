@@ -42,6 +42,7 @@ Good for: Less than 10 active daily users
 - Storage Guarantee: Your local computer hard disk may get corrupted
 - Cost: No Extra Cost
 - Network Usage: egress
+- Expiration: cron with shell scipt `find /path/to/ -type f -mtime +7 -name '*.gz' -execdir rm -- '{}' \;`
 
 ##### Challenges
 
@@ -58,6 +59,7 @@ Good for: Less than 100 active daily users
 - Storage Guarantee: Guranteed - Your local computer hard disk may get corrupted
 - Cost: No Extra Cost
 - Network Usage: No Usage
+- Expiration: cron with shell scipt `find /path/to/ -type f -mtime +7 -name '*.gz' -execdir rm -- '{}' \;`
 
 Note: with this(**B2**), use **A1**(Entire server daily backup) to easily keep backups that are restorable and 2 levels of backup, 1st is server backup and 2nd is DB level backup
 
@@ -96,7 +98,7 @@ Points:
 - Network Usage: Used for Every Backup
 - Alerting: Not Available 
 - Logging: Not Available
-
+- Expiration: [Amazon s3 bucket lifecycle policy](https://www.joe0.com/2017/05/24/amazon-s3-how-to-delete-files-older-than-x-days/)
 
 
 Intervals: Hourly, Weekly and Monthly
